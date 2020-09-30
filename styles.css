@@ -1,0 +1,77 @@
+body {
+  background-color: #ff2e63;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: white;
+  font-size: 110px;
+  font-family: 'Sansita Swashed', cursive;
+  margin-top: 40px;
+}
+
+.drum {
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  border-width: 4px;
+  border-color: white;
+  margin: 1%;
+  font-size: 50px;
+  color: #ff2e63;
+}
+
+button:hover {
+  border-width: 10px;
+  border-color: black;
+}
+
+.pressed {
+  opacity: 0.5;
+  border-width: 10px;
+  border-color: black;
+}
+
+.w {
+  background-image: url(images/hihat.png);
+  background-size: cover;
+}
+
+.a {
+  background-image: url(images/snare.png);
+  background-size: cover;
+}
+
+.s {
+  background-image: url(images/tom1.png);
+  background-size: cover;
+}
+
+.d {
+  background-image: url(images/tom2.png);
+  background-size: cover;
+}
+
+.j {
+  background-image: url(images/tom4.png);
+  background-size: cover;
+}
+
+.k {
+  background-image: url(images/kick.png);
+  background-size: cover;
+}
+
+.l {
+  background-image: url(images/crash.png);
+  background-size: cover;
+}
+
+footer {
+  margin-top: 150px;
+  color: white;
+  font-family: 'Sansita Swashed', cursive;
+  font-size: 20px;
+}
